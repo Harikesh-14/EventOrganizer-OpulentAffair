@@ -1,0 +1,99 @@
+.organizeContainer {
+    width: 80vw;
+    padding: 20px;
+    margin: 20px auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.organizeContainer .heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.organizeContainer .inputFields {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.organizeContainer .inputFields .oneField {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.organizeContainer .inputFields .oneField label {
+    font-size: 1.2rem;
+    color: dodgerblue;
+}
+
+.organizeContainer .inputFields .oneField label::after{
+    content: '*';
+    color: red;
+}
+
+.organizeContainer .inputFields .oneField:nth-child(9) label::after{
+    content: '';
+}
+
+.organizeContainer .inputFields .oneField input {
+    height: 48px;
+    background-color: #05090a;
+    border: 1px solid #18272e;
+    border-radius: 5px;
+    color: aliceblue;
+    padding: 0 20px;
+    letter-spacing: 1px;
+    font-size: 100%;
+}
+
+.inputFields .oneField .photos {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.inputFields .oneField .photos input {
+    padding-top: 12px;
+}
+
+.inputFields .oneField .timeAndDate {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.inputFields .submitBtn {
+    width: 150px;
+    height: 40px;
+    margin: 30px auto 0 auto;
+    background-color: #0275d8;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.19);
+    color: white;
+    font-size: .9rem;
+    transition: all .15s ease;
+    cursor: pointer;
+}
+
+.inputFields .submitBtn:hover {
+    background-color: #0467be;
+    transform: translateY(2px);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

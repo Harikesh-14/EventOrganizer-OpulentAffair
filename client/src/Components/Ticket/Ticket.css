@@ -1,0 +1,75 @@
+.ticketsList .ticket {
+    width: 48%;
+    height: 360px;
+    background-color: #1B2430;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.ticketsList .ticket .randomColor {
+    width: 40%;
+    background-color: #f0ad4e;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+
+.ticketsList .ticket .ticketDetails {
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.ticketsList .ticket .ticketDetails .summary {
+    font-size: .95rem;
+    color: aliceblue;
+    text-align: justify;
+}
+
+.ticketsList .ticket .ticketDetails .buttonList {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.ticketsList .ticket .ticketDetails .buttonList button {
+    width: 120px;
+    height: 40px;
+    margin: 10px auto;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.19);
+    font-size: 100%;
+    color: white;
+    transition: all .15s ease;
+    cursor: pointer;
+}
+
+.ticketsList .ticket .ticketDetails .buttonList button:hover {
+    background-color: rgb(27, 122, 218);
+    transform: translateY(2px);
+}
+
+.ticketLink {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 850px) {
+    .ticketsList .ticket {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ticketsList .ticket .ticketDetails .summary {
+        font-size: .8rem;
+    }
+}

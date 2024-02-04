@@ -1,0 +1,70 @@
+.ticketPageContainer {
+    width: 90vw;
+    margin: 20px auto;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.ticketPageContainer .header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ticketPageContainer .header>p {
+    font-size: 2.1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ticketPageContainer .header .organizer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.ticketPageContainer .header .organizer p span {
+    color: dodgerblue;
+}
+
+.ticketPageContainer .mainContent {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.ticketPageContainer .extraDetails {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.ticketPageContainer .extraDetails .box {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+}
+
+.ticketPageContainer .extraDetails .box span,
+.ticketPageContainer .extraDetails .box p {
+    width: 49%;
+    height: 48px;
+    background-color: #05090a;
+    border: 1px solid #18272e;
+    border-radius: 5px;
+    color: aliceblue;
+    padding: 0 20px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticketPageContainer .extraDetails .box span {
+    color: dodgerblue;
+}

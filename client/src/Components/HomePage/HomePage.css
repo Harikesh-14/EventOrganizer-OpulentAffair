@@ -1,0 +1,65 @@
+.homepageContainer {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.homepageContainer .searchAndFilter {
+    display: flex;
+    flex-direction: column;
+}
+
+.homepageContainer .searchAndFilter .searchbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homepageContainer .searchAndFilter .searchbox label {
+    font-size: 1.6rem;
+    color: azure;
+}
+
+.homepageContainer .searchAndFilter .searchbox input {
+    width: 80%;
+    height: 50px;
+    margin: 20px auto;
+    padding: 0 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 100%;
+    background-color: #141f28;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.19);
+    color: #eee;
+}
+
+.homepageContainer .searchAndFilter .filterBtns {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.homepageContainer .searchAndFilter .filterBtns select {
+    height: 50px;
+    width: 140px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #060a0d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.19);
+}
+
+.ticketsList {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
