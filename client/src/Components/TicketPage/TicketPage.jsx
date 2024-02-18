@@ -64,7 +64,7 @@ function TicketPage() {
                 </div>
                 <div className="upi box">
                     <span>To Pay</span>
-                    <p>RS. {ticketInfo.upi}</p>
+                    <p>{ticketInfo.upi}</p>
                 </div>
             </div>
         </div>

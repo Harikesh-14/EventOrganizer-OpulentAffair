@@ -68,3 +68,24 @@
 .ticketPageContainer .extraDetails .box span {
     color: dodgerblue;
 }
+
+.imagesList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+}
+
+.imagesList img {
+    width: 40%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-drag: none;
+}
